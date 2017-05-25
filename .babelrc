@@ -6,6 +6,10 @@
     },
     "es": {
       "presets": [["env", { "modules": false }]]
+    },
+    "production": {
+      "presets": [["env", { "modules": "commonjs" }]],
+      "plugins": [["transform-react-remove-prop-types", { "removeImport": true }]]
     }
   }
 }
