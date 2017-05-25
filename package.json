@@ -6,6 +6,7 @@
   "author": "Steffen Hansen",
   "license": "MIT",
   "scripts": {
+    "clean": "git clean -fdX .",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d ."
   },
   "devDependencies": {
