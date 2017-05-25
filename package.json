@@ -5,6 +5,9 @@
   "repository": "git@github.com:sgnh/react-pdca.git",
   "author": "Steffen Hansen",
   "license": "MIT",
+  "scripts": {
+    "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d ."
+  },
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-env": "^1.5.1",
