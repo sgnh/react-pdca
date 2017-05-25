@@ -5,6 +5,7 @@
   "module": "es/PDCA.js",
   "repository": "git@github.com:sgnh/react-pdca.git",
   "author": "Steffen Hansen",
+  "description": "PDCA status icon for React",
   "license": "MIT",
   "files": [
     "PDCA.js",
