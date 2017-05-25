@@ -3,3 +3,4 @@ node_modules
 /*.js
 es
 !.eslintrc.js
+!webpack.config.js
