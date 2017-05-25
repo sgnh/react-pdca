@@ -1,7 +1,7 @@
 import React from 'react';
 
-const pdca = () => (
+const PDCA = () => (
   <h1>PDCA</h1>
 );
 
-export default pdca;
+export default PDCA;

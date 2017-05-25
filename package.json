@@ -1,13 +1,13 @@
 {
   "name": "react-pdca",
   "version": "1.0.0",
-  "main": "pdca.js",
-  "module": "es/pdca.js",
+  "main": "PDCA.js",
+  "module": "es/PDCA.js",
   "repository": "git@github.com:sgnh/react-pdca.git",
   "author": "Steffen Hansen",
   "license": "MIT",
   "files": [
-    "pdca.js",
+    "PDCA.js",
     "es",
     "umd"
   ],
@@ -15,8 +15,8 @@
     "clean": "git clean -fdX .",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d .",
     "build:es": "cross-env BABEL_ENV=es babel src -d es",
-    "build:umd": "cross-env BABEL_ENV=commonjs webpack src/pdca.js umd/react-pdca.js",
-    "build:umd:min": "cross-env BABEL_ENV=commonjs webpack -p src/pdca.js umd/react-pdca.min.js",
+    "build:umd": "cross-env BABEL_ENV=commonjs webpack src/PDCA.js umd/react-pdca.js",
+    "build:umd:min": "cross-env BABEL_ENV=commonjs webpack -p src/PDCA.js umd/react-pdca.min.js",
     "build": "yarn run build:commonjs && yarn run build:es && yarn run build:umd && yarn run build:umd:min"
   },
   "devDependencies": {
