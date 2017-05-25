@@ -14,7 +14,9 @@
   "scripts": {
     "clean": "git clean -fdX .",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d .",
-    "build:es": "cross-env BABEL_ENV=es babel src -d es"
+    "build:es": "cross-env BABEL_ENV=es babel src -d es",
+    "build:umd": "cross-env BABEL_ENV=commonjs webpack src/pdca.js umd/react-pdca.js",
+    "build:umd:min": "cross-env BABEL_ENV=commonjs webpack -p src/pdca.js umd/react-pdca.min.js",
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
