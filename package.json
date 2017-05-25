@@ -1,17 +1,17 @@
 {
   "name": "react-pdca",
   "version": "1.0.0",
-  "main": "PDCA.js",
-  "module": "es/PDCA.js",
-  "repository": "sgnh/react-pdca",  
-  "author": "Steffen Hansen",
   "description": "PDCA status icon for React",
+  "repository": "sgnh/react-pdca",  
   "license": "MIT",
+  "author": "Steffen Hansen",
   "files": [
     "PDCA.js",
     "es",
     "umd"
   ],
+  "main": "PDCA.js",
+  "module": "es/PDCA.js",
   "scripts": {
     "clean": "git clean -fdX .",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d .",
