@@ -1,7 +1,7 @@
 {
   "name": "react-pdca",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "pdca.js",
   "repository": "git@github.com:sgnh/react-pdca.git",
   "author": "Steffen Hansen",
   "license": "MIT",
