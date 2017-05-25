@@ -6,6 +6,11 @@
   "repository": "git@github.com:sgnh/react-pdca.git",
   "author": "Steffen Hansen",
   "license": "MIT",
+  "files": [
+    "pdca.js",
+    "es",
+    "umd"
+  ],
   "scripts": {
     "clean": "git clean -fdX .",
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d .",
