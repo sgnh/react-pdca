@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "PDCA.js",
   "module": "es/PDCA.js",
-  "repository": "git@github.com:sgnh/react-pdca.git",
+  "repository": "sgnh/react-pdca",  
   "author": "Steffen Hansen",
   "description": "PDCA status icon for React",
   "license": "MIT",
