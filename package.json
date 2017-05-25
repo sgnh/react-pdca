@@ -2,7 +2,7 @@
   "name": "react-pdca",
   "version": "1.0.0",
   "description": "PDCA status icon for React",
-  "repository": "sgnh/react-pdca",  
+  "repository": "sgnh/react-pdca",
   "license": "MIT",
   "author": "Steffen Hansen",
   "files": [
