@@ -2,5 +2,6 @@ node_modules
 .vscode
 /*.js
 es
+umd
 !.eslintrc.js
 !webpack.config.js
