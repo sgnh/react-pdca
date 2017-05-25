@@ -2,8 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const { string, bool } = PropTypes;
-
 const PDCA = ({
     planDisabled,
     doDisabled,
@@ -83,15 +81,15 @@ const PDCA = ({
 );
 
 PDCA.propTypes = {
-  planDisabled: bool,
-  doDisabled: bool,
-  checkDisabled: bool,
-  actDisabled: bool,
-  planColor: string,
-  doColor: string,
-  checkColor: string,
-  actColor: string,
-  disabledColor: string,
+  planDisabled: PropTypes.bool,
+  doDisabled: PropTypes.bool,
+  checkDisabled: PropTypes.bool,
+  actDisabled: PropTypes.bool,
+  planColor: PropTypes.string,
+  doColor: PropTypes.string,
+  checkColor: PropTypes.string,
+  actColor: PropTypes.string,
+  disabledColor: PropTypes.string,
 };
 
 PDCA.defaultProps = {
