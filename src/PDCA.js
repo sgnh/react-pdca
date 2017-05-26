@@ -16,8 +16,10 @@ const PDCA = ({
   onDoClick,
   onCheckClick,
   onActClick,
+  width,
+  height,
 }) => (
-  <svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+  <svg width={width} height={height} viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     <defs>
       <circle id="path-1" cx="100" cy="100" r="100" />
       <filter x="-5.5%" y="-5.5%" width="111.0%" height="111.0%" filterUnits="objectBoundingBox" id="filter-2">
@@ -114,6 +116,8 @@ PDCA.propTypes = {
   onDoClick: PropTypes.func,
   onCheckClick: PropTypes.func,
   onActClick: PropTypes.func,
+  width: PropTypes.string,
+  height: PropTypes.string,
 };
 
 PDCA.defaultProps = {
@@ -130,6 +134,8 @@ PDCA.defaultProps = {
   onDoClick: undefined,
   onCheckClick: undefined,
   onActClick: undefined,
+  width: '200px',
+  height: '200px',
 };
 
 export default PDCA;
