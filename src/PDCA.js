@@ -3,16 +3,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const PDCA = ({
-    planDisabled,
-    doDisabled,
-    checkDisabled,
-    actDisabled,
-    planColor,
-    doColor,
-    checkColor,
-    actColor,
-    disabledColor,
-  }) => (
+  planDisabled,
+  doDisabled,
+  checkDisabled,
+  actDisabled,
+  planColor,
+  doColor,
+  checkColor,
+  actColor,
+  disabledColor,
+}) => (
   <svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     <defs>
       <circle id="path-1" cx="100" cy="100" r="100" />
