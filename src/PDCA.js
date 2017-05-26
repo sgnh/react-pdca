@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import PropTypes from 'prop-types';
+import stylePropType from 'react-style-proptype';
 
 const PDCA = ({
   planDisabled,
@@ -18,8 +19,9 @@ const PDCA = ({
   onActClick,
   width,
   height,
+  style,
 }) => (
-  <svg width={width} height={height} viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+  <svg width={width} height={height} style={style} viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
     <defs>
       <circle id="path-1" cx="100" cy="100" r="100" />
       <filter x="-5.5%" y="-5.5%" width="111.0%" height="111.0%" filterUnits="objectBoundingBox" id="filter-2">
@@ -118,6 +120,7 @@ PDCA.propTypes = {
   onActClick: PropTypes.func,
   width: PropTypes.string,
   height: PropTypes.string,
+  style: stylePropType,
 };
 
 PDCA.defaultProps = {
@@ -136,6 +139,7 @@ PDCA.defaultProps = {
   onActClick: undefined,
   width: '200px',
   height: '200px',
+  style: undefined,
 };
 
 export default PDCA;
