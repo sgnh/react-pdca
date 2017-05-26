@@ -9,7 +9,15 @@
     },
     "production": {
       "presets": [["env", { "modules": "commonjs" }]],
-      "plugins": [["transform-react-remove-prop-types", { "removeImport": true }]]
+      "plugins": [
+        [
+          "transform-react-remove-prop-types",
+          {
+            "removeImport": true,
+            "additionalLibraries": ["react-style-proptype"]
+          }
+        ]
+      ]
     }
   }
 }
