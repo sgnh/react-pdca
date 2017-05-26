@@ -77,7 +77,7 @@ const PDCA = ({
     <g id="Shadow" fillOpacity="1" fill="black">
       <use filter="url(#filter-2)" xlinkHref="#path-1" />
     </g>
-  </svg >
+  </svg>
 );
 
 PDCA.propTypes = {
