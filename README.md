@@ -1,4 +1,4 @@
-# react-pdca
+# react-pdca [![Build Status](https://circleci.com/gh/sgnh/react-pdca.svg?style=shield)](https://circleci.com/gh/sgnh/react-pdca/tree/master)
 ![PDCA](https://github.com/sgnh/react-pdca/raw/master/docs/pdca.png "PDCA")
 
 ## Installation
