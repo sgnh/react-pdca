@@ -28,6 +28,7 @@ class PDCAContainer extends Component {
       <PDCA
         height="300px"
         width="300px"
+
         planDisabled={this.state.planDisabled}
         doDisabled={this.state.doDisabled}
         checkDisabled={this.state.checkDisabled}
