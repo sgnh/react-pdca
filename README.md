@@ -6,6 +6,9 @@
 npm install --save react-pdca
 ```
 
+## Demo
+Working demo on CodePen: [React PDCA](https://codepen.io/sgnh/full/LyaaYK/)
+
 ## Example
 ```javascript
 import React, { Component } from 'react';
