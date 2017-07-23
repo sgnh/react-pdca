@@ -35,7 +35,7 @@
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-style-proptype": "^3.0.0",
-    "webpack": "^2.6.1"
+    "webpack": "^3.3.0"
   },
   "keywords": [
     "react",
